@@ -1,0 +1,58 @@
+.swiperCountries .swiper-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.swiperCountries .info,
+swiper-slide .swiperCountries .slide-info .info,
+.caption .info {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: .5rem;
+}
+
+.swiperCountries .countries .sub,
+swiper-slide .swiperCountries .slide-info .sub,
+.swiperCountries .caption .sub {
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.swiperCountries .countries .sub {
+    color: #000;
+}
+
+.swiperCountries .swiper-slide .content {
+    position: relative;
+    height: 182px;
+}
+
+.swiperCountries .swiper-slide .content img,
+.swiperCountries .content video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.swiperCountries .swiper-slide .content .caption {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.swiperCountries .swiper-slide .content .caption .caption-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 .5rem 0 .5rem;
+}
+
+.swiperCountries .caption .sub,
+.swiperCountries .caption .info {
+    color: #FFF;
+}

@@ -1,0 +1,12 @@
+.navbar{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background: transparent;
+    color: #FFF;
+}
+
+.navbar > * {
+    color: #FFF;
+}
